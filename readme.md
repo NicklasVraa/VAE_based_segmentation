@@ -20,5 +20,7 @@ Notebooks:
 - Additional utility functions and constants are also defined in a separate file: \
   [utility.py](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/utility.py)
 
+Results:
+- To see how the model performs, please use the final notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb), or look at our [results](results)
 \
 Thank you for your attention.
