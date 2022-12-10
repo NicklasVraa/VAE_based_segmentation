@@ -6,19 +6,19 @@ This repository is identical to our [collaboratory repository](https://github.co
 ## Repository Overview
 Notebooks:
 - To see how we prepared and preprocessed our data, please see the notebook: \
-  [1_preprocessing.ipynb](https://github.com/felsager/vae_lung_tumor_segmentation/blob/master/notebooks/1_preprocessing.ipynb)
+  [1_preprocessing.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/1_preprocessing.ipynb)
 
 - To see how we developed our variational autoencoder, please see the notebook: \
-  [2_vae_modelling.ipynb](https://github.com/felsager/vae_lung_tumor_segmentation/blob/master/notebooks/2_vae_modelling.ipynb)
+  [2_vae_modelling.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/2_vae_modelling.ipynb)
 
 - To see how we developed our segmentation decoder, please see the notebook: \
-  [3_seg_decoder.ipynb](https://github.com/felsager/vae_lung_tumor_segmentation/blob/master/notebooks/3_seg_decoder.ipynb)
+  [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb)
 
 - The model architectures are defined in a separate python file for convenience: \
-  [models.py](https://github.com/felsager/vae_lung_tumor_segmentation/blob/master/notebooks/models.py)
+  [models.py](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/models.py)
 
 - Additional utility functions and constants are also defined in a separate file: \
-  [utility.py](https://github.com/felsager/vae_lung_tumor_segmentation/blob/master/notebooks/utility.py)
+  [utility.py](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/utility.py)
 
 \
 Thank you for your attention.
