@@ -21,20 +21,22 @@ Notebooks:
 - Additional utility functions and constants are also defined in a separate file: \
   [utility.py](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/utility.py)
 
-Results:
-- To see how the model performs live, please use the final notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb)
-- To see our results, please look at our [results](https://github.com/NicklasVraa/vae_based_segmentation/tree/main/results)
+---
+## Results:
+🟢 Green denotes the ground truth, set by a specialist doctor. \
+🔴 Red denotes our model's prediction.
+
+![Find in figures directory, if not loaded](figures/results.png)
+
+To see how the model performs on your data, please use the first notebook [1_preprocessing.ipynb]([https://](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/1_preprocessing.ipynb)) to prepare your data, and then the third notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb) to get predictions.
 
 ---
 ## Real-time Testing
-This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples, that do not contain cancerous tissue. Green denotes the ground truth and red is the model's prediction.
+This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples, that do not contain cancerous tissue.
 
 ![Find in results directory, if not loaded](results/model_test_1.gif)
 
-Remember that the model is doing preditions on the testing portion of the dataset, which it has not seen before. Still, it performs quite well.
-
-Here are some more predictions:
-![Find in figures directory, if not loaded](figures/results.png)
+Remember that the model is doing preditions on the testing portion of our dataset, which it has not seen before. Still, it performs quite well.
 
 \
 Thank you for your attention.
