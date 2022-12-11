@@ -27,11 +27,11 @@ Results:
 
 ---
 ## Real-time Testing
-This GIF shows the model doing prediction in real-time, and the samples are taken from a random batch. This is why there are many samples, which do contain cancerous tissue. Green denotes the ground truth and red is the model's prediction.
+This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples, that do not contain cancerous tissue. Green denotes the ground truth and red is the model's prediction.
 
-![Find in results directory, if not loaded](results/model_test.gif)
+![Find in results directory, if not loaded](results/model_test_1.gif)
 
-Remember that this on the testing-test, which the model has not seen before. Still, it performs quite well.
+Remember that this on the testing-set, which the model has not seen before. Still, it performs quite well.
 
 \
 Thank you for your attention.
