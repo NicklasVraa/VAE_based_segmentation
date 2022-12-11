@@ -26,7 +26,7 @@ Notebooks:
 🟢 Green denotes the ground truth, set by a specialist doctor. \
 🔴 Red denotes our model's prediction.
 
-![Find in figures directory, if not loaded](figures/results.png)
+![Find in figures directory, if not loaded.](figures/results.png)
 
 To see how the model performs on your data, please use the first notebook [1_preprocessing.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/1_preprocessing.ipynb) to prepare your data, and then the third notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb) to get predictions.
 
@@ -34,9 +34,15 @@ To see how the model performs on your data, please use the first notebook [1_pre
 ## Real-time Testing
 This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples, that do not contain cancerous tissue.
 
-![Find in results directory, if not loaded](results/model_test_1.gif)
+![Find in results directory, if not loaded.](results/model_test_1.gif)
 
 Remember that the model is doing preditions on the testing portion of our dataset, which it has not seen before. Still, it performs quite well.
+
+---
+## Concept
+This is a high-level overview of the model.
+
+![Model architecture and information flow.](figures/model_arch.svg)
 
 \
 Thank you for your attention.
