@@ -28,7 +28,7 @@ Notebooks:
 
 ![Find in figures directory, if not loaded](figures/results.png)
 
-To see how the model performs on your data, please use the first notebook [1_preprocessing.ipynb]([https://](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/1_preprocessing.ipynb)) to prepare your data, and then the third notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb) to get predictions.
+To see how the model performs on your data, please use the first notebook [1_preprocessing.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/1_preprocessing.ipynb) to prepare your data, and then the third notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb) to get predictions.
 
 ---
 ## Real-time Testing
