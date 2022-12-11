@@ -31,7 +31,7 @@ This GIF shows the model doing prediction in real-time. The samples are taken fr
 
 ![Find in results directory, if not loaded](results/model_test_1.gif)
 
-Remember that this on the testing-set, which the model has not seen before. Still, it performs quite well.
+Remember that the model is doing preditions on the testing portion of the dataset, which it has not seen before. Still, it performs quite well.
 
 \
 Thank you for your attention.
