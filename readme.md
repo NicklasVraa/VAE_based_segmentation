@@ -33,5 +33,8 @@ This GIF shows the model doing prediction in real-time. The samples are taken fr
 
 Remember that the model is doing preditions on the testing portion of the dataset, which it has not seen before. Still, it performs quite well.
 
+Here are some more predictions:
+![Find in figures directory, if not loaded](figures/results.png)
+
 \
 Thank you for your attention.
