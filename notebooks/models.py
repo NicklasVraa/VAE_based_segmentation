@@ -66,6 +66,7 @@ class VAEModel(nn.Module):
             nn.Sigmoid()
         )
 
+        # Custom weight initialization.
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.kaiming_normal_(m.weight, mode='fan_in', nonlinearity='leaky_relu')
@@ -119,6 +120,7 @@ class SegmentationModel(nn.Module):
             nn.Sigmoid()
         )
 
+        # Custom weight initialization.
         for m in self.modules():
             if isinstance(m, nn.Conv2d):
                 nn.init.kaiming_normal_(m.weight, mode='fan_in', nonlinearity='leaky_relu')
