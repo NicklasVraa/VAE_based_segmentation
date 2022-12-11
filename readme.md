@@ -3,6 +3,7 @@ This repository contains the files and notebooks, which accompany our (Nicklas V
 
 This repository is identical to our [collaboratory repository](https://github.com/felsager/vae_lung_tumor_segmentation)
 
+---
 ## Repository Overview
 Notebooks:
 - To see how we prepared and preprocessed our data, please see the notebook: \
@@ -21,6 +22,16 @@ Notebooks:
   [utility.py](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/utility.py)
 
 Results:
-- To see how the model performs, please use the final notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb), or look at our [results](results)
+- To see how the model performs live, please use the final notebook [3_seg_decoder.ipynb](https://github.com/NicklasVraa/vae_based_segmentation/blob/main/notebooks/3_seg_decoder.ipynb)
+- To see our results, please look at our [results](https://github.com/NicklasVraa/vae_based_segmentation/tree/main/results)
+
+---
+## Real-time Testing
+This GIF shows the model doing prediction in real-time, and the samples are taken from a random batch. This is why there are many samples, which do contain cancerous tissue. Green denotes the ground truth and red is the model's prediction.
+
+![Find in results directory, if not loaded](results/model_test.gif)
+
+Remember that this on the testing-test, which the model has not seen before. Still, it performs quite well.
+
 \
 Thank you for your attention.
