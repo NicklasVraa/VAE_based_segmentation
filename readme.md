@@ -23,7 +23,7 @@ Notebooks:
 
 ---
 ## Results:
-🟢 Green denotes the ground truth, set by a specialist doctor. \
+🟢 Green denotes the ground truth, which has been set by a specialist doctor. \
 🔴 Red denotes our model's prediction.
 
 ![Find in figures directory, if not loaded.](figures/results.png)
@@ -32,7 +32,7 @@ To see how the model performs on your data, please use the first notebook [1_pre
 
 ---
 ## Real-time Testing
-This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples, that do not contain cancerous tissue.
+This GIF shows the model doing prediction in real-time. The samples are taken from a random batch each time, which is why there are many samples that do not contain cancerous tissue.
 
 ![Find in results directory, if not loaded.](results/model_test_1.gif)
 
